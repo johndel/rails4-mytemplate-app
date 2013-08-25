@@ -2,9 +2,9 @@
 
 This is a basic admin panel with bootstrap and rails 4 apps. I've organized and separated each asset, I've added the gems that I like and I'll use it for basic prototypes that I want to build. Feel free to do suggestions.
 
-Well, do a grep and change the name TemplateApp whenever you want
-Change the file config/initializers/secret_token.rb
-Change the db/seeds/01_users.rb
-Do a rake db:dev:init (it needs postgresql)
+- Well, do a grep and change the name "TemplateApp" in whatever you want
+- Change the file config/initializers/secret_token.rb
+- Change the db/seeds/01_users.rb
+- Do a rake db:dev:init (it needs postgresql)
 
 ...and you are good to go with a basic setup!
