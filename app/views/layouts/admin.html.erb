@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TemplateApp</title>
+  <%= stylesheet_link_tag    "admin/admin_base_css", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "admin/admin_base_js", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%#= render partial: "layouts/admin/horizontal_menu" %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" style="border: 1px solid red;">
+      test
+      <%= render partial: "layouts/admin/sidebar" %>
+    </div>
+    <div class="col-md-8"  style="border: 1px solid red;">
+      test
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

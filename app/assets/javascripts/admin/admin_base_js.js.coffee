@@ -1,0 +1,10 @@
+#= require jquery
+#= require jquery-ui
+#= require jquery.turbolinks
+#= require turbolinks
+#= require jquery_ujs
+#= require jquery.ui.nestedSortable
+#= require sortable_tree/initializer
+#= require jquery_nested_form
+#= require jquery-fileupload/basic
+#= require modules/file_upload_custom
